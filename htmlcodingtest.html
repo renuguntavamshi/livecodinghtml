@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment 1</title>
+    <style>
+        div{
+            text-align: center;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <h1>HTML Assesment</h1><br><br>
+    <p>HTML Assesment from Prepbytes</p><br>
+    <hr>
+    <p>Image used from Absolute path</p>
+    <img src="./logoPrepBytes.svg" alt="Prepbytes logo"><br>
+    <p>Image used from Relative  path</p>
+    <img src="./asdfg" alt="Image"><br><br>
+    <a href="https://www.prepbytes.com/" target="_blank">Link should be open in another tab</a><br><br>
+    <a href="https://www.prepbytes.com/" target="_top">Link should be open in same tab</a><br>
+    <hr>
+    <form action="index.html" method="get">
+        <h2>Form</h2>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="name" placeholder="name" value=""><br><br>
+        <label for="Email">Email Address:</label>
+        <input type="email" id="Email" name="email" placeholder="email" value=""><br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="password" placeholder="password" value=""><br><br>
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" name="email"  value=""><br><br>
+        <label >Language</label><br><br>
+        <input type="radio" id="React" name="language"  value="">
+        <label for="React">React</label><br>
+        <input type="radio" id="Angular" name="language"  value="">
+        <label for="Angular">Angular</label><br>
+        <input type="radio" id="Vue" name="language"  value="">
+        <label for="Vue">Vue</label>
+
+        <br><br>
+        <label >Course</label><br><br>
+        <input type="checkbox" id="MERN" name="course"  value="">
+        <label for="MERN">MERN</label><br>
+        <input type="checkbox" id="MEAN" name="course"  value="">
+        <label for="MEAN">MEAN</label><br>
+        <input type="checkbox" id="MEVN" name="course"  value="">
+        <label for="MEVN">MEVN</label><br><br>
+<label for="field">Field</label><br>
+        <select name="Field" id="field">
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="Database">Database</option>
+        </select><br><br>
+       <input type="submit">
+    </form>
+</div><br>
+    <hr>
+
+    <h2>Table</h2>
+<table border="1" align="center">
+    <tr>
+        <th>Course</th>
+        <th colspan="2">Contact Details</th>
+        <th>Date of Joining</th>
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+        <td colspan="2">1234567890</td>
+        <td>2 Dec 2022</td>
+
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+        <td rowspan="2">1234567890</td>
+        <td colspan="2">2 Dec 2022</td>
+
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+
+        <td >2 Dec 2022</td>
+
+    </tr>
+</table> <br>
+<hr>
+<br>
+<h3>Lists</h3>
+<ul>
+    <li>Mobile Development </li>
+    <li>Web Development <ul type="disc">
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue</li>
+    </ul></li>
+    <li>Cloud Server</li>
+</ul><br><br>
+<hr>
+</body>
+</html>
